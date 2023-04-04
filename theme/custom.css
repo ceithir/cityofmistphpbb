@@ -10,10 +10,22 @@ body {
 }
 
 .wrap {
-	background-image: url("./images/banner-2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
 	border: none;
+}
+
+#page-header {
+	background-image: url("./images/banner-2.jpg");
+	background-size: cover;
+
+	/* Compensate for .wrap default padding */
+	margin: -15px;
+	margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+	#page-header {
+		margin: 0;
+	}
 }
 
 .headerbar, .navbar {
