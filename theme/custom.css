@@ -1,0 +1,21 @@
+.site_logo {
+	background-image: url("./images/logo.avif");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#page-header {
+	background-image: url("./images/banner.jpg");
+	background-size: cover;
+}
+
+.headerbar, .navbar {
+	background: transparent;
+}
+
+.navbar a {
+	color: white;
+}
+
+
+
