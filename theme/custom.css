@@ -32,7 +32,11 @@ body {
 	background: transparent;
 }
 
-.navbar a {
+#nav-main > li > a, #nav-breadcrumbs > li > span > a {
 	color: white;
+}
+
+#nav-main > li > a:hover, #nav-breadcrumbs > li > span > a:hover {
+	color: #D31141;
 }
 
