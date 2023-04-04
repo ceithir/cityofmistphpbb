@@ -6,6 +6,7 @@
 
 body {
 	background-color: #1e1f4b;
+	min-height: 100vh;
 }
 
 .wrap {
