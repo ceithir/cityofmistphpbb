@@ -4,9 +4,15 @@
 	background-repeat: no-repeat;
 }
 
-#page-header {
-	background-image: url("./images/banner.jpg");
-	background-size: cover;
+body {
+	background-color: #1e1f4b;
+}
+
+.wrap {
+	background-image: url("./images/banner-2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
 }
 
 .headerbar, .navbar {
@@ -16,6 +22,4 @@
 .navbar a {
 	color: white;
 }
-
-
 
