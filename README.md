@@ -72,3 +72,28 @@ These snippets will require the CSS contained in the theme to look good.
 </div>
 ```
 
+### Block
+
+For when you just need a transparent `<div>` for positioning purpose.
+
+```
+[block title={TEXT1?}]{TEXT2}[/block]
+```
+
+```
+<div class="bbcode-block">
+<div class="bbcode-block-title">{TEXT1}</div>
+{TEXT2}
+</div>
+```
+
+### hr
+
+```
+[hr][/hr]
+```
+
+```
+<hr class="bbcode-hr" />
+```
+
