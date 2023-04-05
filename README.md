@@ -20,4 +20,16 @@ These snippets will require the CSS contained in the theme to look good.
 </div>
 ```
 
+### Paper board
+
+```
+[board]{TEXT}[/board]
+```
+
+```
+<div class="bbcode-board">
+{TEXT}
+</div>
+```
+
 
