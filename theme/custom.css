@@ -172,3 +172,8 @@ body {
 	border-style: double;
 }
 
+.bbcode-board > .bbcode-block {
+	background-color: #fefbf2;
+	padding: 12px 0;
+}
+
