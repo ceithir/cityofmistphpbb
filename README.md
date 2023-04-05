@@ -45,6 +45,20 @@ These snippets will require the CSS contained in the theme to look good.
 <div class="bbcode-choice-inner">{TEXT3}</div>
 </div>
 ```
+
+### Logos card
+
+```
+[logoscd title={TEXT1?}]{TEXT2}[/logoscd]
+```
+
+```
+<div class="bbcode-logoscd">
+<div class="bbcode-logoscd-title">{TEXT1}</div>
+{TEXT2}
+</div>
+```
+
 ### Mythos card
 
 ```
