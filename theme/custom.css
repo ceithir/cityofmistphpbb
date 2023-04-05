@@ -40,3 +40,28 @@ body {
 	color: #D31141;
 }
 
+/* BBCodes */
+
+.bbcode-postit {
+	background-color: #f5eca7;
+	padding: 12px;
+	max-width: 360px;
+}
+
+.bbcode-postit::before {
+	content: "";
+	display: block;
+	height: 20px;
+	background-image: url("./images/postithole.jpg");
+	background-repeat: space;
+	margin: -4px;
+	margin-bottom: 12px;
+}
+
+.bbcode-postit-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: larger;
+	margin-bottom: 8px;
+}
+
