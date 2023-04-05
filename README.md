@@ -32,4 +32,29 @@ These snippets will require the CSS contained in the theme to look good.
 </div>
 ```
 
+### Choice
+
+```
+[choice title={TEXT1?} description={TEXT2?}]{TEXT3}[/choice]
+```
+
+```
+<div class="bbcode-choice">
+<div class="bbcode-choice-title">{TEXT1}</div>
+<p class="bbcode-choice-description">{TEXT2}</p>
+<div class="bbcode-choice-inner">{TEXT3}</div>
+</div>
+```
+### Mythos card
+
+```
+[mythoscd title={TEXT1?}]{TEXT2}[/mythoscd]
+```
+
+```
+<div class="bbcode-mythoscd">
+<div class="bbcode-mythoscd-title">{TEXT1}</div>
+{TEXT2}
+</div>
+```
 
