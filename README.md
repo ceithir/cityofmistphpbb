@@ -131,3 +131,13 @@ For when you just need a transparent `<div>` for positioning purpose.
 </div>
 ```
 
+### Tag
+
+```
+[tag]{TEXT}[/tag]
+```
+
+```
+<span class="bbcode-tag">{TEXT}</span>
+```
+

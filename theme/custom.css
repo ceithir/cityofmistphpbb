@@ -257,3 +257,12 @@ body {
 	border-color: #3a2230;
 }
 
+.bbcode-tag {
+	background-color: #fff1a2;
+	font-style: italic;
+}
+
+.bbcode-mythos .bbcode-tag {
+	color: black;
+}
+
