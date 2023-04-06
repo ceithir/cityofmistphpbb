@@ -114,3 +114,20 @@ For when you just need a transparent `<div>` for positioning purpose.
 </div>
 ```
 
+### Mythos sheet
+
+```
+[mythos title={TEXT1} mystery={TEXT2}]{TEXT3}[/mythos]
+```
+
+```
+<div class="bbcode-mythos">
+	<div class="bbcode-mythos-header" />
+	<div class="bbcode-mythos-title">{TEXT1}</div>
+	<div class="bbcode-mythos-mystery">
+		Mystery: <span class="bbcode-mythos-mystery-content">{TEXT2}</span>
+	</div>
+	<div class="bbcode-mythos-inner">{TEXT3}</div>
+</div>
+```
+

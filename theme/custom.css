@@ -109,7 +109,7 @@ body {
 	margin-right: -12px;
 }
 
-.bbcode-logoscd, .bbcode-mythoscd, .bbcode-logos {
+.bbcode-logoscd, .bbcode-mythoscd, .bbcode-logos, .bbcode-mythos {
 	border: 12px solid transparent;
 	border-radius: 12px;
 	padding: 12px;
@@ -129,7 +129,7 @@ body {
 	background-color: #e8d8be;
 }
 
-.bbcode-mythoscd {
+.bbcode-mythoscd, .bbcode-mythos {
 	color: white;
 	border-color: #7e6481;
 	background-color: #5d3e77;
@@ -177,46 +177,83 @@ body {
 	padding: 12px 0;
 }
 
-.bbcode-logos {
+.bbcode-logos, .bbcode-mythos {
 	width: 240px;
 }
 
-.bbcode-logos-title {
+.bbcode-logos-title, .bbcode-mythos-title {
 	text-transform: uppercase;
 	font-size: 200%;
 	font-weight: bold;
-	color: #503d2f;
 	margin-bottom: 12px;
 }
 
-.bbcode-logos-identity {
+.bbcode-logos-title {
+	color: #503d2f;
+}
+
+.bbcode-mythos-title {
+	line-height: 1;
+	font-style: italic;
+	/* https://css-tricks.com/how-to-create-neon-text-with-css/ */
+	color: #fff;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #b651d2,
+		0 0 82px #b651d2,
+		0 0 92px #b651d2,
+		0 0 102px #b651d2,
+		0 0 151px #b651d2
+	;
+}
+
+.bbcode-logos-identity, .bbcode-mythos-mystery {
 	margin-bottom: 8px;
 }
 
-.bbcode-logos-identity-content {
+.bbcode-logos-identity-content, .bbcode-mythos-mystery-content {
 	font-weight: bold;
 }
 
-.bbcode-logos-identity-content::before {
+.bbcode-logos-identity-content::before, .bbcode-mythos-mystery-content::before {
 	content: "“";
 }
 
-.bbcode-logos-identity-content::after {
+.bbcode-logos-identity-content::after, .bbcode-mythos-mystery-content::after {
 	content: "”";
 }
 
-.bbcode-logos-header {
+.bbcode-logos-header, .bbcode-mythos-header {
 	height: 24px;
-	background-color: #9b4f2b;
 	margin: -12px;
-	margin-bottom: 16px;
+	margin-bottom: 12px;
+	border-radius: 4px 4px 0 0;
+}
+
+.bbcode-logos-header::after, .bbcode-mythos-header::after {
+	height: 24px;
+	float: right;
+	border-bottom: 8px solid transparent;
+	border-radius: 4px;
+}
+
+.bbcode-logos-header {
+	background-color: #9b4f2b;
 }
 
 .bbcode-logos-header::after {
 	content: url("./images/logos-icon.svg");
-	height: 24px;
-	float: right;
-	border-bottom: 8px solid #9b4f2b;
-	border-radius: 4px;
+	border-color: #9b4f2b;
+}
+
+.bbcode-mythos-header {
+	background-color: #3a2230;
+}
+
+.bbcode-mythos-header::after {
+	content: url("./images/mythos-icon.svg");
+	border-color: #3a2230;
 }
 
