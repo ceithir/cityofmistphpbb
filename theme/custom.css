@@ -186,6 +186,7 @@ body {
 	font-size: 200%;
 	font-weight: bold;
 	margin-bottom: 12px;
+	line-height: 1;
 }
 
 .bbcode-logos-title {
@@ -193,7 +194,6 @@ body {
 }
 
 .bbcode-mythos-title {
-	line-height: 1;
 	font-style: italic;
 	/* https://css-tricks.com/how-to-create-neon-text-with-css/ */
 	color: #fff;
