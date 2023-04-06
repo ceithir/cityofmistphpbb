@@ -109,7 +109,7 @@ body {
 	margin-right: -12px;
 }
 
-.bbcode-logoscd, .bbcode-mythoscd {
+.bbcode-logoscd, .bbcode-mythoscd, .bbcode-logos {
 	border: 12px solid transparent;
 	border-radius: 12px;
 	padding: 12px;
@@ -123,10 +123,10 @@ body {
 	}
 }
 
-.bbcode-logoscd {
+.bbcode-logoscd, .bbcode-logos {
 	color: black;
 	border-color: #d2c7b4;
-	background-color: #c4b8a8;
+	background-color: #e8d8be;
 }
 
 .bbcode-mythoscd {
@@ -175,5 +175,48 @@ body {
 .bbcode-board > .bbcode-block {
 	background-color: #fefbf2;
 	padding: 12px 0;
+}
+
+.bbcode-logos {
+	width: 240px;
+}
+
+.bbcode-logos-title {
+	text-transform: uppercase;
+	font-size: 200%;
+	font-weight: bold;
+	color: #503d2f;
+	margin-bottom: 12px;
+}
+
+.bbcode-logos-identity {
+	margin-bottom: 8px;
+}
+
+.bbcode-logos-identity-content {
+	font-weight: bold;
+}
+
+.bbcode-logos-identity-content::before {
+	content: "“";
+}
+
+.bbcode-logos-identity-content::after {
+	content: "”";
+}
+
+.bbcode-logos-header {
+	height: 24px;
+	background-color: #9b4f2b;
+	margin: -12px;
+	margin-bottom: 16px;
+}
+
+.bbcode-logos-header::after {
+	content: url("./images/logos-icon.svg");
+	height: 24px;
+	float: right;
+	border-bottom: 8px solid #9b4f2b;
+	border-radius: 4px;
 }
 

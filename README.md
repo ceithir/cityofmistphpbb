@@ -97,3 +97,20 @@ For when you just need a transparent `<div>` for positioning purpose.
 <hr class="bbcode-hr" />
 ```
 
+### Logos sheet
+
+```
+[logos title={TEXT1} identity={TEXT2}]{TEXT3}[/logos]
+```
+
+```
+<div class="bbcode-logos">
+	<div class="bbcode-logos-header" />
+	<div class="bbcode-logos-title">{TEXT1}</div>
+	<div class="bbcode-logos-identity">
+		Identity: <span class="bbcode-logos-identity-content">{TEXT2}</span>
+	</div>
+	<div class="bbcode-logos-inner">{TEXT3}</div>
+</div>
+```
+
