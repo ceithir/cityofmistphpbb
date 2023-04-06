@@ -100,34 +100,28 @@ For when you just need a transparent `<div>` for positioning purpose.
 ### Logos sheet
 
 ```
-[logos title={TEXT1} identity={TEXT2}]{TEXT3}[/logos]
+[logos title={TEXT1}]{TEXT2}[/logos]
 ```
 
 ```
 <div class="bbcode-logos">
 	<div class="bbcode-logos-header" />
 	<div class="bbcode-logos-title">{TEXT1}</div>
-	<div class="bbcode-logos-identity">
-		Identity: <span class="bbcode-logos-identity-content">{TEXT2}</span>
-	</div>
-	<div class="bbcode-logos-inner">{TEXT3}</div>
+	<div class="bbcode-logos-inner">{TEXT2}</div>
 </div>
 ```
 
 ### Mythos sheet
 
 ```
-[mythos title={TEXT1} mystery={TEXT2}]{TEXT3}[/mythos]
+[mythos title={TEXT1}]{TEXT2}[/mythos]
 ```
 
 ```
 <div class="bbcode-mythos">
 	<div class="bbcode-mythos-header" />
 	<div class="bbcode-mythos-title">{TEXT1}</div>
-	<div class="bbcode-mythos-mystery">
-		Mystery: <span class="bbcode-mythos-mystery-content">{TEXT2}</span>
-	</div>
-	<div class="bbcode-mythos-inner">{TEXT3}</div>
+	<div class="bbcode-mythos-inner">{TEXT2}</div>
 </div>
 ```
 

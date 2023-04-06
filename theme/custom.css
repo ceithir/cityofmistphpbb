@@ -209,22 +209,6 @@ body {
 	;
 }
 
-.bbcode-logos-identity, .bbcode-mythos-mystery {
-	margin-bottom: 8px;
-}
-
-.bbcode-logos-identity-content, .bbcode-mythos-mystery-content {
-	font-weight: bold;
-}
-
-.bbcode-logos-identity-content::before, .bbcode-mythos-mystery-content::before {
-	content: "“";
-}
-
-.bbcode-logos-identity-content::after, .bbcode-mythos-mystery-content::after {
-	content: "”";
-}
-
 .bbcode-logos-header, .bbcode-mythos-header {
 	height: 24px;
 	margin: -12px;
