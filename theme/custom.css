@@ -50,6 +50,11 @@ body {
 	margin-bottom: 12px;
 }
 
+.bbcode-postit-size-large {
+	max-width: 480px;
+}
+
+
 .bbcode-postit::before {
 	content: "";
 	display: block;

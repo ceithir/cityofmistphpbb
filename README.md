@@ -10,13 +10,13 @@ These snippets will require the CSS contained in the theme to look good.
 ### Yellow note
 
 ```
-[postit title={TEXT1?}]{TEXT2}[/postit]
+[postit title={TEXT1?} size={CHOICE=normal,large;defaultValue=normal}]{TEXT2}[/postit]
 ```
 
 ```
-<div class="bbcode-postit">
-<div class="bbcode-postit-title">{TEXT1}</div>
-{TEXT2}
+<div class="bbcode-postit bbcode-postit-size-{CHOICE}">
+	<div class="bbcode-postit-title">{TEXT1}</div>
+	{TEXT2}
 </div>
 ```
 
