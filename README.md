@@ -141,3 +141,13 @@ For when you just need a transparent `<div>` for positioning purpose.
 <span class="bbcode-tag">{TEXT}</span>
 ```
 
+### Character sheet
+
+```
+[sheet]{TEXT}[/sheet]
+```
+
+```
+<div class="bbcode-sheet">{TEXT}</div>
+```
+

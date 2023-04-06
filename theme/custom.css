@@ -46,7 +46,7 @@ body {
 	background-color: #f5eca7;
 	padding: 12px;
 	min-width: 240px;
-	max-width: 480px;
+	max-width: 360px;
 	margin-bottom: 12px;
 }
 
@@ -264,5 +264,26 @@ body {
 
 .bbcode-mythos .bbcode-tag {
 	color: black;
+}
+
+.bbcode-sheet {
+	background: url("./images/paper-background.jpg");
+}
+
+.bbcode-sheet {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 12px;
+}
+
+.bbcode-sheet > * {
+	margin: 0 4px 12px 4px;
+}
+
+.bbcode-sheet > img {
+	max-width: 360px;
+	max-height: 360px;
+	border: 4px ridge white;
 }
 
