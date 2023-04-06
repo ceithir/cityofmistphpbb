@@ -249,6 +249,7 @@ body {
 .bbcode-tag {
 	background-color: #fff1a2;
 	font-style: italic;
+	padding-right: 2px;
 }
 
 .bbcode-mythos .bbcode-tag {
