@@ -46,29 +46,16 @@ These snippets will require the CSS contained in the theme to look good.
 </div>
 ```
 
-### Logos card
+### Option
 
 ```
-[logoscd title={TEXT1?}]{TEXT2}[/logoscd]
-```
-
-```
-<div class="bbcode-logoscd">
-<div class="bbcode-logoscd-title">{TEXT1}</div>
-{TEXT2}
-</div>
-```
-
-### Mythos card
-
-```
-[mythoscd title={TEXT1?}]{TEXT2}[/mythoscd]
+[option title={TEXT1}]{TEXT2}[/option]
 ```
 
 ```
-<div class="bbcode-mythoscd">
-<div class="bbcode-mythoscd-title">{TEXT1}</div>
-{TEXT2}
+<div class="bbcode-option">
+	<div class="bbcode-option-title">{TEXT1}</div>
+	{TEXT2}
 </div>
 ```
 
