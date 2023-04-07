@@ -1,4 +1,4 @@
-
+# City of Mist phpBB theme for PBP LARP
 
 ## Useful BBCode snippets
 
@@ -45,7 +45,7 @@ These snippets will require the CSS contained in the theme to look good.
 </div>
 ```
 
-### Option
+### Choice option
 
 ```
 [option title={TEXT1}]{TEXT2}[/option]
