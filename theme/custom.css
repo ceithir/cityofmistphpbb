@@ -54,6 +54,10 @@ body {
 	margin-bottom: 12px;
 }
 
+.bbcode-postit-size-small {
+	max-width: 240px;
+}
+
 .bbcode-postit-size-large {
 	max-width: 480px;
 }

@@ -10,7 +10,7 @@ These snippets will require the CSS contained in the theme to look good.
 ### Yellow note
 
 ```
-[postit title={TEXT1?} size={CHOICE=normal,large;defaultValue=normal}]{TEXT2}[/postit]
+[postit title={TEXT1?} size={CHOICE=small,normal,large;defaultValue=normal}]{TEXT2}[/postit]
 ```
 
 ```
