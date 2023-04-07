@@ -82,7 +82,7 @@ body {
 .bbcode-board {
 	background-image: url("./images/paper-background.jpg");
 	background-size: cover;
-	padding: 24px 4px 12px 4px;
+	padding: 24px 6px 12px 6px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -96,12 +96,15 @@ body {
 	margin-bottom: 12px;
 }
 
+.bbcode-board > .bbcode-choice {
+	margin: 0 -6px;
+}
+
 .bbcode-choice {
 	background-image: url("./images/mythos-background.jpg");
 	padding: 24px;
 	padding-bottom: 12px;
 	color: white;
-	margin: 0;
 }
 
 .bbcode-choice-inner {
