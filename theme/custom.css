@@ -75,7 +75,7 @@ body {
 .bbcode-board {
 	background-image: url("./images/paper-background.jpg");
 	background-size: cover;
-	padding: 24px 12px;
+	padding: 24px 4px 12px 4px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -83,8 +83,9 @@ body {
 }
 
 .bbcode-board > * {
-	margin-left: 12px;
-	margin-right: 12px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 12px;
 }
 
 .bbcode-choice {
@@ -112,6 +113,12 @@ body {
 .bbcode-board > .bbcode-choice {
 	margin-left: -12px;
 	margin-right: -12px;
+}
+
+.bbcode-board > img {
+	max-width: 360px;
+	max-height: 360px;
+	border: 4px ridge white;
 }
 
 .bbcode-logoscd, .bbcode-mythoscd, .bbcode-logos, .bbcode-mythos {
@@ -254,26 +261,5 @@ body {
 
 .bbcode-mythos .bbcode-tag {
 	color: black;
-}
-
-.bbcode-sheet {
-	background: url("./images/paper-background.jpg");
-}
-
-.bbcode-sheet {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding-top: 12px;
-}
-
-.bbcode-sheet > * {
-	margin: 0 4px 12px 4px;
-}
-
-.bbcode-sheet > img {
-	max-width: 360px;
-	max-height: 360px;
-	border: 4px ridge white;
 }
 
