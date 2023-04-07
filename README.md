@@ -35,14 +35,13 @@ These snippets will require the CSS contained in the theme to look good.
 ### Choice
 
 ```
-[choice title={TEXT1?} description={TEXT2?}]{TEXT3}[/choice]
+[choice title={TEXT1?}]{TEXT2}[/choice]
 ```
 
 ```
 <div class="bbcode-choice">
-<div class="bbcode-choice-title">{TEXT1}</div>
-<p class="bbcode-choice-description">{TEXT2}</p>
-<div class="bbcode-choice-inner">{TEXT3}</div>
+	<div class="bbcode-choice-title">{TEXT1}</div>
+	<div class="bbcode-choice-inner">{TEXT2}</div>
 </div>
 ```
 
