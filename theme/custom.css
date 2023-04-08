@@ -273,3 +273,11 @@ body {
 	color: black;
 }
 
+.bbcode-roll > svg {
+	height: 24px;
+}
+
+.bbcode-roll > svg path {
+	fill: currentColor;
+}
+
