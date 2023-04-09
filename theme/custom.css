@@ -281,6 +281,10 @@ body {
 	color: black;
 }
 
+.bbcode-postit .bbcode-tag {
+	border: 1px solid white;
+}
+
 .bbcode-roll > svg {
 	height: 24px;
 }
