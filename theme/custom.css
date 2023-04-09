@@ -263,11 +263,18 @@ body {
 	border-color: #3a2230;
 }
 
-.bbcode-tag {
-	background-color: #fff1a2;
+.bbcode-tag, .bbcode-status {
 	font-style: italic;
 	padding-right: 2px;
 	color: black;
+}
+
+.bbcode-tag {
+	background-color: #fff1a2;
+}
+
+.bbcode-status {
+	background-color: #d9e8ae;
 }
 
 .bbcode-mythos .bbcode-tag {

@@ -121,6 +121,16 @@ For when you just need a transparent `<div>` for positioning purpose.
 <span class="bbcode-tag">{TEXT}</span>
 ```
 
+### Status
+
+```
+[status]{TEXT}[/status]
+```
+
+```
+<span class="bbcode-status">{TEXT}</span>
+```
+
 ### Roll
 
 ```
