@@ -98,6 +98,7 @@ body {
 
 .bbcode-board > .bbcode-choice {
 	margin: 0 -6px;
+	width: 100%;
 }
 
 .bbcode-choice {
@@ -146,13 +147,12 @@ body {
 }
 
 .bbcode-option:hover {
-	border-color: #fff;
-	box-shadow: 0 0 .2rem #fff,
-		0 0 .2rem #fff,
-		0 0 2rem #ec008c,
-		 0 0 0.8rem #ec008c,
-		0 0 2.8rem #ec008c,
-		inset 0 0 1.3rem #ec008c
+	box-shadow: 0 0 .2rem #ec008c,
+		0 0 .2rem #ec008c,
+		0 0 2rem #ab5299,
+		 0 0 0.8rem #ab5299,
+		0 0 2.8rem #ab5299,
+		inset 0 0 1.3rem #ab5299
 	;
 	background-color: #1b0b2f;
 }
@@ -267,6 +267,7 @@ body {
 	background-color: #fff1a2;
 	font-style: italic;
 	padding-right: 2px;
+	color: black;
 }
 
 .bbcode-mythos .bbcode-tag {
