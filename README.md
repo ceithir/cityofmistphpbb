@@ -63,13 +63,13 @@ These snippets will require the CSS contained in the theme to look good.
 For when you just need a transparent `<div>` for positioning purpose.
 
 ```
-[block title={TEXT1?}]{TEXT2}[/block]
+[block title={TEXT1?} id={IDENTIFIER?}]{TEXT2}[/block]
 ```
 
 ```
-<div class="bbcode-block">
-<div class="bbcode-block-title">{TEXT1}</div>
-{TEXT2}
+<div class="bbcode-block" id={IDENTIFIER}>
+	<div class="bbcode-block-title">{TEXT1}</div>
+	{TEXT2}
 </div>
 ```
 
