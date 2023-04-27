@@ -267,6 +267,7 @@ body {
 	font-style: italic;
 	padding-right: 2px;
 	color: black;
+	white-space: nowrap;
 }
 
 .bbcode-tag {
